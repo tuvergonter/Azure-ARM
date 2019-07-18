@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspName": {
+            "value": "ViBiCloud Managed Service"
+            },
+        "mspOfferDescription": {
+            "value": "ViBiCloud Managed Service - Subscription and Resources Management"
+            },
+        "managedByTenantId": {
+            "value": "33557861-bf3b-4115-8ceb-2c0addb8f2c3"
+            },
+        "authorizations": {
+            "value": [
+                    {
+                    "principalId": "c4e05b18-739e-4746-8d95-78747e8a1fb8",
+                    "principalIdDisplayName": "ViBiCloud Admins",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                    },
+                    {
+                    "principalId": "c4e05b18-739e-4746-8d95-78747e8a1fb8",
+                    "principalIdDisplayName": "ViBiCloud Admins",
+                    "roleDefinitionId": "36243c78-bf99-498c-9df9-86d9f8d28608"
+                    },
+                    {
+                    "principalId": "42d6cba9-3935-4a6a-8257-31402e1c6504",
+                    "principalIdDisplayName": "ViBiCloud Helpdesk",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+                    },
+                    {
+                    "principalId": "8a886c97-c077-446f-8d2a-70652b3e7dd9",
+                    "principalIdDisplayName": "Service Automation Account",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                    },
+                    {
+                    "principalId": "eff0d835-f0fd-4f10-bcf2-39978769fe1d",
+                    "principalIdDisplayName": "Policy Automation Account",
+                    "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+                    "delegatedRoleDefinitionIds": [
+                    "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "92aaf0da-9dab-42b6-94a3-d43ce8d16293"
+                        ]
+                    }                
+                ]
+            }
+        }
+    }
