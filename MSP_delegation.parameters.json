@@ -29,12 +29,12 @@
                     "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
                     },
                     {
-                    "principalId": "8a886c97-c077-446f-8d2a-70652b3e7dd9",
+                    "principalId": "85be91af-804c-4b35-b687-b46c9b153cf2",
                     "principalIdDisplayName": "Service Automation Account",
                     "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
                     },
                     {
-                    "principalId": "eff0d835-f0fd-4f10-bcf2-39978769fe1d",
+                    "principalId": "7c332caa-799b-4063-a871-8f9c12dc57c9",
                     "principalIdDisplayName": "Policy Automation Account",
                     "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
                     "delegatedRoleDefinitionIds": [
